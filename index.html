@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive starbucks Website</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo"><img
+                src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnt29yVMP9cyjfHeXfnKgcg1imG2b7AF80LCoyRcE&s
+                alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome to</span>
+            <h1>starbucks coffee</h1>
+            <h2>free coffee is a <br>tap away</h2>
+            <a href="#" class="btn">Join Now</a>
+        </div>
+        <div class="home-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51SeR6MDy7g7iXti449drI1ZkJvKuF4MVQQ&usqp=CAU"
+                style="border-radius: 30px
+    ; opacity: 0.8;">
+
+        </div>
+    </section>
+
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop Now</span>
+            <h1>Shop coffee</h1>
+        </div>
+        <div class="shop-centainer">
+            <div class="box">
+                <div class="box-img">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>starbuck coffee</h2>
+                <span>$ 12.4</span>
+                <a href="Buy coffee.html" class="btn">Order Now</a>
+            </div>
+
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipzh5eilN33yP_kHgSbft4DbW9eLeOtACc8qs8Aj-71QCCxjUUzj3pJxJm4TRJf5wXrU&usqp=CAU"
+                        alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>starbuck coffee</h2>
+                <span>$ 12.4</span>
+                <a href="Buy coffee.html" class="btn">Order Now</a>
+            </div>
+
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjn3c9uDbQnMIKUUUfb8q7_Q-47a96odaHYD1v_roZxW_hz1SDANNxp_LmpgcLQZ2hyQ&usqp=CAU"
+                        alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>starbuck coffee</h2>
+                <span>$ 12.4</span>
+                <a href="Buy coffee.html" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery -->
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get Now</span>
+            <h1>Order with Uber East</h1>
+        </div>
+        <div class="container">
+            <div class="delivery_img">
+                <img src="https://dailycoffeenews.com/wp-content/uploads/2019/07/Starbucks-Delivers-Uber-Eats-1024x570.jpg"
+                    alt="">
+            </div>
+            <div class="delivery-text">
+                <h2>Today deserve delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <a href="ordernow.html" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- downlode app -->
+    <section class="app" id="app">
+        <div class="heading">
+            <span>Our App</span>
+            <h1>Downlode App</h1>
+        </div>
+        <div class="container">
+
+            <div class="app-text">
+                <h2>fall into an easier routine</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <a href="#" class="btn">Get App</a>
+            </div>
+            <div class="app_img">
+                <img src="https://assets.materialup.com/uploads/b15f8502-3f51-409f-9e0b-95de05a039d9/preview.jpg"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- About us -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://pbs.twimg.com/media/FAZ5K35UcAI7M26.jpg:large" alt="">
+        </div>
+        <div class="app-text">
+            <h2>50 years of saving communities</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad at amet neque beatae dolor cum a
+                adipisci eos saepe.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad at amet neque beatae dolor cum a
+                adipisci eos saepe.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+        <div class="heading" id="head">
+            <h2>Contact Us </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptas doloremque, illo atque
+                    modi amet animi deserunt maiores! Voluptatibus, odio.</p>
+                <div class="address">
+                    <box-icon type='solid' name='map'><i class='bx bxs-map'><span>katraj Pune
+                                413110</span></i></box-icon>
+                    <box-icon type='solid' name='map'><i class='bx bxs-phone'><span>+91 966 554
+                                3840</span></i></box-icon>
+                    <box-icon type='solid' name='map'><i
+                            class='bx bxs-envelope'><span>contact@coffee.com</span></i></box-icon>
+
+                </div>
+
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="button" value="Submit">
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact  -->
+    <section class="contact" id="contact">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="links">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Our Company</a>
+        </div>
+        <p style="font-weight: bold; font-size: 20px;">&#169; Swapnil_Toradmal..... All Right Resrved.</p>
+    </section>
+
+
+
+
+
+    <!-- link to custom js -->
+    <script src="main1.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
